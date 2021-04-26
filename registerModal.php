@@ -56,7 +56,7 @@ $address = mysqli_real_escape_string($conn, $_POST['address_modal']);
                 //$fn = "'" .$fn."'";
                 //$ln = "'" .$ln."'";
                 $sql = "INSERT INTO `account` (`fname`, `lname`, `email`, `gender`, `password`, 
-                 `phone`, `address`) VALUES ('$fn','$ln', '$email', '$gender', '$pw', '$phone', '$address')";
+                 `phone`, `address`,`register_date`) VALUES ('$fn','$ln', '$email', '$gender', '$pw', '$phone', '$address',now())";
                 mysqli_query($conn, $sql);
                         //echo "New account created successfully";
                         $_SESSION['email'] = $email;

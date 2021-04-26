@@ -3,7 +3,7 @@
 	//if (isset($_SESSION['status_login']))
 	//if ($_SESSION['status_login'] == true)
 		//header("location:info.php");
-	$conn = mysqli_connect('localhost', 'root', '', 'ducati');
+	$conn = mysqli_connect('localhost', 'root', '', 'shopee');
 	$errors = array();
 
 	if (isset($_POST['login_user'])) {
@@ -27,7 +27,7 @@
       //$_SESSION['type'] = $results;
   	  $_SESSION['success'] = "You are now logged in";
        
-            header('location: info.php'); 
+            header('location: cart.php'); 
            
   	}else {
   		array_push($errors, "Wrong email/password combination");

@@ -5,6 +5,9 @@
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         if (isset($_POST['product_submit'])){
         // call method addToCart
+                           echo '<script>';
+     echo 'console.log('. json_encode( $_POST['item_id'] ,JSON_HEX_TAG) .')';
+   echo '</script>';
         $Cart->addToCart($_POST['user_id'], $_POST['item_id']);
         }
     }

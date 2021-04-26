@@ -1,3 +1,24 @@
+<?php 
+    
+    if($_SERVER['REQUEST_METHOD'] == "POST"){
+         echo '<script>';
+  //  echo 'console.log('. json_encode($my_arr, JSON_HEX_TAG) .')';
+     echo 'console.log('. json_encode('test', JSON_HEX_TAG) .')';
+   echo '</script>';
+        if (isset($_POST['reg_user'])){
+                   echo '<script>';
+     echo 'console.log('. json_encode($_POST['fn_modal'], JSON_HEX_TAG) .')';
+   echo '</script>';
+        // call method addToCart
+        $User->addToUser($_POST['fn_modal'], $_POST['ln_modal']);
+        }
+    }
+    // $in_cart = $Cart->getCartId($product->getData('cart')) ;
+    // $item_id = $_GET['item_id']??0;
+    // foreach ($product->getData() as $item){
+    //     if($item['item_id']==$item_id){
+            
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,9 +68,10 @@
                   </button>
               </div>
               <div class="modal-body">
-                <form data-toggle="validator" action="signin.php" method="POST">
-                    <?php $errors = array(); 
-                            include('errors.php'); ?>
+                <!-- <form data-toggle="validator" action="signin.php" method="POST"> -->
+                  <form data-toggle="validator" method="POST">
+                    <!-- <?php $errors = array(); 
+                            include('errors.php'); ?> -->
                 <div class="form-group">
                     <input placeholder="Email" type="text" name="reg-email" class="form-control" data-error="Please enter email." required />
                     <div class="help-block with-errors"></div>
@@ -80,8 +102,8 @@
                   </button>
               </div>
               <div class="modal-body">
-
-                <form data-toggle="validator" action="registerModal.php" method="POST">
+<!-- <form data-toggle="validator" action="registerModal.php" method="POST"> -->
+                <form data-toggle="validator" method="POST">
                 <div class="form-group">
                     <input placeholder="First name" type="text" name="fn_modal" class="form-control" data-error="Please enter first name." required />
                     <div class="help-block with-errors"></div>
@@ -131,12 +153,12 @@
                 <div class="form-group">
                     <button type="submit" class="btn crud-submit btn-dark" name="reg_user">Register</button>
                      <button type="button" class="btn btn-secondary" id="back-signin-btn">Sign in</button>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     $('#back-signin-btn').click(function(){
         $('#signup-modal').modal('hide');
         $('#signin-modal').modal('show');
     });
-</script>
+</script> -->
                 </div>
                 </form>
               </div>
@@ -186,3 +208,4 @@
 
     <!-- start #main-site -->
         <main id="main-site">
+        <?php  ?>

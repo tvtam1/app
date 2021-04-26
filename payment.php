@@ -116,8 +116,7 @@ span.price {
 </head>
 <body>
 
-<h2>Responsive Checkout Form</h2>
-<p>Let's fill the payment form</p>
+<h2>Payment Form</h2>
 <div class="row">
   <div class="col-75">
     <div class="container">

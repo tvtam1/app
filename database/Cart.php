@@ -39,6 +39,9 @@ class Cart
     // to get user_id and item_id and insert into cart table
     public  function addToCart($userid, $itemid){
         if (isset($userid) && isset($itemid)){
+                               echo '<script>';
+     echo 'console.log('. json_encode('tdhjdj', JSON_HEX_TAG) .')';
+   echo '</script>';
             $params = array(
                 "user_id" => $userid,
                 "item_id" => $itemid

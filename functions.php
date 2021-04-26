@@ -9,6 +9,8 @@ require ('database/Product.php');
 // require Cart Class
 require ('database/Cart.php');
 
+require ('database/User.php');
+
 
 // DBController object
 $db = new DBController();
@@ -22,3 +24,4 @@ $product_shuffle = $product->getData();
 
 // Cart object
 $Cart = new Cart($db );
+$User = new User($db );
