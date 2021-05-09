@@ -26,9 +26,9 @@ SET time_zone = "+00:00";
 --
 -- Cấu trúc bảng cho bảng `binh_luan`
 --
-CREATE DATABASE `bigshoes`;
+CREATE DATABASE `i39ofxadpc39r225`;
 
-USE `bigshoes`;
+USE `i39ofxadpc39r225`;
 
 CREATE TABLE `binh_luan` (
   `ma_bl` int(11) NOT NULL,

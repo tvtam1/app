@@ -22,6 +22,7 @@
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
         // }
+        // mysql -h host=wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u jq8o2jhf7i5qgt0a -prv118na9f99comeb i39ofxadpc39r225 < bigshoes.sql
     }
 
     function pdo_execute($sql){//thêm dữ liệu
