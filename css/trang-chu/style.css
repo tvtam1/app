@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 580px;
+  background: #55566b;
+  background-blend-mode: screen;
+  clip-path: ellipse(72% 65% at 59% 34%);
+  position: relative;
+}
+
+.logo img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 26px;
+  display: block;
+  z-index: 2;
+}
+
+.active {
+  color: #19d7f8 !important;
+}
+
+.nav ul li {
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+  margin-top: 33px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(165, 164, 164);
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #a5a4a4;
+}
+.sign {
+  position: relative;
+}
+
+.signup-btn {
+  position: absolute;
+  top: 30px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: #fff;
+  background-image: linear-gradient(#4d5069, #4d5069),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.signup-btn span {
+  padding: 3px 20px;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+
+.text .nho {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.text .to {
+  width: 70%;
+  color: gray;
+  font-size: 14px;
+}
+
+.likk {
+  position: absolute;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: #fff;
+  background-image: linear-gradient(#4d5069, #4d5069),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.likk span {
+  padding: 3px 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+  position: relative;
+}
+
+.aria-label {
+  width: 300px;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  opacity: 0.4;
+}
+
+.owl-next {
+  position: absolute;
+  top: 75px;
+  right: 20px;
+  opacity: 0.4;
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption span {
+  color: #19d7f8;
+}
+
+.caption p {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.anhmoi {
+  position: relative;
+}
+
+.anhmoi img {
+  width: 100%;
+}
+
+.now {
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(
+      rgba(231, 240, 240, 0.9),
+      rgba(255, 255, 255, 0.99)
+    ),
+    url(img/den.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jus {
+  position: relative;
+}
+
+.jus img {
+  width: 180px;
+  left: 340px;
+  position: absolute;
+  top: 100px;
+}
+
+.newjus {
+  width: 280px;
+  margin-top: 150px;
+}
+
+.newjus ul li {
+  list-style: none;
+  margin-bottom: 22px;
+}
+
+.newjus span {
+  color: #19d7f8;
+}
+
+.newjus ul li a {
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  background-color: #19d7f8;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.now1 {
+  width: 100%;
+  height: 140px;
+  background-color: rgb(247, 247, 247);
+  position: relative;
+  border-radius: 0 0 30px 30px;
+}
+
+.pick {
+}
+
+.pick ul li {
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.pick ul li i {
+  background-color: rgb(226, 226, 226);
+  padding: 17px;
+  border-radius: 10px;
+  border: 2px solid rgb(212, 211, 211);
+}
+
+.pick ul li span {
+  color: #25cbe9;
+}
+
+.pick ul li {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 5px 30px;
+}
+
+.now2 {
+  width: 100%;
+  height: 340px;
+  background-color: rgb(243, 243, 243);
+  position: relative;
+}
+
+.fo {
+}
+
+.fo ul li {
+  margin-top: 15px;
+  list-style: none;
+  font-size: 13px;
+}
+
+.fo img {
+  width: 100px;
+}
+
+.fo ul li i {
+  margin-left: 14px;
+  border: solid 1px gray;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.fo ul li p {
+  color: rgb(163, 163, 163);
+}
+
+.fo ul li input {
+  padding: 13px 10px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+}
+
+.fo ul li a {
+  position: absolute;
+  top: 83px;
+  right: 40px;
+  color: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
