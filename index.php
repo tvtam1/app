@@ -3,6 +3,6 @@
 //   $app['monolog']->addDebug('cowsay');
 //   return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
 // });
-    require('../vendor/autoload.php');
+    // require('');
     header('location: trang-chinh/index.php');
 ?>
