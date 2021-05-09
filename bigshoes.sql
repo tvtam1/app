@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Cấu trúc bảng cho bảng `binh_luan`
 --
-CREATE DATABASE `i39ofxadpc39r225`;
+-- CREATE DATABASE `i39ofxadpc39r225`;
 
 USE `i39ofxadpc39r225`;
 
