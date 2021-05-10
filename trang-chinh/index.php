@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/../css/trang-chu/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/../css/trang-chu/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/../css/trang-chu/style.css">
+    <link rel="stylesheet" href="/css/trang-chu/style.css">
 </head>
 <body>
 
@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="anhmoi">
-                    <img src="/css/trang-chu/img/s2.jpg" alt="">
+                     <img src='/css/trang-chu/img/s2.jpg' alt="">
                 </div>
             </div>
             <div class="col-md-6">
