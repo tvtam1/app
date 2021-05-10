@@ -51,9 +51,9 @@
                             session_start();
                             if(!isset($_SESSION['user'])){
                         ?>
-                        <a class="signup-btn" href="../../app/tai-khoan/dang-nhap.php"><span>Đăng nhập</span> </a>
+                        <a class="signup-btn" href="../../tai-khoan/dang-nhap.php"><span>Đăng nhập</span> </a>
                         <?php }else{ ?>
-                        <a  class="signup-btn" href="../../app/tai-khoan/thong-tin-tk.php"><span><?=$_SESSION['user']['ho_ten'] ?> </span></a>
+                        <a  class="signup-btn" href="../../tai-khoan/thong-tin-tk.php"><span><?=$_SESSION['user']['ho_ten'] ?> </span></a>
                         <?php } ?>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                     
                 ?>
                     <div class="item">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../app/css/admin/images/products/<?=$hinh?>" alt="ds"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"></a>
                     </div>
                 <?php }?>
 
@@ -271,7 +271,7 @@
                     extract($item);
                     ?>
                     <div class="item">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../app/css/admin/images/products/<?=$hinh?>" alt="ds"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"></a>
                     </div>
                     <?php }?>
 
@@ -308,7 +308,7 @@
                 ?>
             <div class="col-md-3">
                 <div class="card">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img class="card-img-top" src="../../app/css/admin/images/products/<?=$hinh?>" alt="Card image top"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img class="card-img-top" src="../../css/admin/images/products/<?=$hinh?>" alt="Card image top"></a>
                     <div class="card-body">
                         <h5 class="card-title"><?=$ten_hh?></h5>
                         <p class="card-subtitle"><?=number_format($don_gia-($don_gia*$giam_gia/100)) ?> VNĐ</p>

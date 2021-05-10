@@ -64,7 +64,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../../../../app/trang-chinh/"><strong style = "margin-left: 40px;">THE CLOSER</strong></a>
+                <a class="navbar-brand" href="../../../../trang-chinh/"><strong style = "margin-left: 40px;">THE CLOSER</strong></a>
             </div>
            
     <!-- Nav bar-->
