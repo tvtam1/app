@@ -368,7 +368,7 @@
                                         Xin cám ơn !
                                     </p>
                                 </li>
-                                <li><i class="fa fa-facebook" href='https://www.facebook.com/Theclosershoesstore'></i>
+                                <li><i class="fa fa-facebook"><a href='https://www.facebook.com/Theclosershoesstore'></a></i>
                                     <i class="fa fa-firefox"></i>
                                     <i class="fa fa-pinterest-p"></i>
                                     <i class="fa fa-youtube"></i>
