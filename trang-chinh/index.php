@@ -369,9 +369,6 @@
                                     </p>
                                 </li>
                             </ul>
-                                                                <div style='white-space: nowrap;'>
-                                    <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
-            </div>
                         </div>
 
                     </div>
@@ -391,6 +388,7 @@
                                 </li>
                                 <li>
                                     <p>Liên hệ</p>
+                                    <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
                                 </li>
                             </ul>
                         </div>
