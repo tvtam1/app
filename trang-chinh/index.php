@@ -22,18 +22,12 @@
 
     <div class="container-fluid">
         <div class="banner">
-            <!-- <video autoplay muted loop id="myVideo">
-                <source src="../css/trang-chu/img/G-DRAGON Seoul  All For 1  Nike.mp4" type="video/mp4">
+            <video autoplay muted loop id="myVideo">
+                <source src="/css/trang-chu/img/Nike.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
-              </video> -->
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
-      </iframe> -->
-            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute=1&autoplay=1" 
-      allow="autoplay" allowfullscreen></iframe>
-                          <!-- <iframe  autoplay muted loop id="myVideo" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"></iframe>
-      </iframe> -->
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              </video>
+            <!-- <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute=1&autoplay=1" 
+      allow="autoplay" allowfullscreen></iframe> -->
             <div class="row">
 
                 <div class="col-sm-2">
@@ -150,9 +144,8 @@
 
 
     <?php
-        require_once ('/admin/dao/hang-hoa.php');
+        require_once ('../admin/dao/hang-hoa.php');
         $items = hang_hoa_select_all_adidas();
-    
     ?>
 
     <div class="container" style="margin-top: 50px;">
