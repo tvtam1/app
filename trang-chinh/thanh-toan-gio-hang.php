@@ -234,11 +234,11 @@
                 </tr>
                 <tr>
                         <td><button type="submit" name="dathang" class="btn btn-danger"><b>ĐẶT HÀNG</b></button></td>
-                        <td><button type="submit" name="dathangonline" class="btn btn-danger"><a href="https://test-payment.momo.vn/gw_payment/transactionProcessor">ĐẶT HÀNG VÀ THANH TOÁN ONLINE</a></button></td>
+                        <td><button type="submit" name="dathangonline" class="btn"><a href="https://test-payment.momo.vn/gw_payment/transactionProcessor">ĐẶT HÀNG VÀ THANH TOÁN ONLINE</a></button></td>
                 </tr>
                 </tbody>
             </table>        
-            <li><a href="danh-sach-sp.php">TRANG CHỦ</a></li>
+            <a href="danh-sach-sp.php">Tiếp tục mua sắm</a>
             </form>
             </div>
         </div>
