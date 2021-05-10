@@ -28,8 +28,8 @@
               </video> -->
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
       </iframe> -->
-            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
-      frameborder="0" allow="accelerometer; autoplay;muted ;loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&amp;start=2" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                           <!-- <iframe  autoplay muted loop id="myVideo" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"></iframe>
       </iframe> -->
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
