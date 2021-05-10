@@ -387,8 +387,11 @@
                                     <p>Giới thiệu</p>
                                 </li>
                                 <li>
-                                    <p>Liên hệ  <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a></p>
+                                    <p>Liên hệ</p>
                             </ul>
+                            <div>
+                                <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
