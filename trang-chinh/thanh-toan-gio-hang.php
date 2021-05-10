@@ -274,12 +274,15 @@
                         extract($item);
                         $sql = "INSERT INTO hoa_don_chi_tiet(ma_hd,ma_hh,so_luong,don_gia) VALUES ('".$ma_hd."','".$ma_hh."','".$sl."','".$price."')";
                         $conn->exec($sql);
+                        unset($_SESSION['cart'][$ma_hh]);
 
                         
                     }
-                    echo '<script language="javascript">';
-                    echo 'alert("Bạn đã đặt đơn hàng thành công !")';
-                    echo '</script>';
+
+                    echo"<script>
+                    alert('Bạn đã đặt đơn hàng thành công !');
+                    window.location.href='./danh-sach-sp.php';
+                    </script>";
                 } 
                 catch (PDOException $e) {
                     echo $e->getMessage();

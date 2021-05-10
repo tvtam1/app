@@ -9,23 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/trang-chu/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/trang-chu/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/trang-chu/style.css">
+    <link rel="stylesheet" href="/css/trang-chu/style.css">
 </head>
 <body>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../css/trang-chu/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/trang-chu/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
         <div class="banner">
-            <video autoplay muted loop id="myVideo">
+            <!-- <video autoplay muted loop id="myVideo">
                 <source src="../css/trang-chu/img/G-DRAGON Seoul  All For 1  Nike.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
-              </video>
+              </video> -->
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
+      </iframe> -->
+            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
+      frameborder="0" allow="accelerometer; autoplay;muted ;loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                          <!-- <iframe  autoplay muted loop id="myVideo" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"></iframe>
+      </iframe> -->
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             <div class="row">
 
                 <div class="col-sm-2">
@@ -51,9 +59,9 @@
                             session_start();
                             if(!isset($_SESSION['user'])){
                         ?>
-                        <a class="signup-btn" href="../../tai-khoan/dang-nhap.php"><span>Đăng nhập</span> </a>
+                        <a class="signup-btn" href="/tai-khoan/dang-nhap.php"><span>Đăng nhập</span> </a>
                         <?php }else{ ?>
-                        <a  class="signup-btn" href="../../tai-khoan/thong-tin-tk.php"><span><?=$_SESSION['user']['ho_ten'] ?> </span></a>
+                        <a  class="signup-btn" href="/tai-khoan/thong-tin-tk.php"><span><?=$_SESSION['user']['ho_ten'] ?> </span></a>
                         <?php } ?>
                     </div>
                 </div>
@@ -100,24 +108,24 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="anhmoi">
-                    <img src="../css/trang-chu/img/s2.jpg" alt="">
+                    <img src="/css/trang-chu/img/s2.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="anhmoi">
-                        <img src="../css/trang-chu/img/s1.jpg" alt="">
+                        <img src="/css/trang-chu/img/s1.jpg" alt="">
                     </div>
                 </div>
                 <div class="row" style="margin-top: 30px;">
                     <div class="col-md-6">
                         <div class="anhmoi">
-                            <img src="../css/trang-chu/img/s3.jpg" alt="">
+                            <img src="/css/trang-chu/img/s3.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="anhmoi">
-                            <img src="../css/trang-chu/img/s4.jpg" alt="">
+                            <img src="/css/trang-chu/img/s4.jpg" alt="">
                         </div>
                     </div>
 
@@ -142,7 +150,7 @@
 
 
     <?php
-        require_once ('../admin/dao/hang-hoa.php');
+        require_once ('/admin/dao/hang-hoa.php');
         $items = hang_hoa_select_all_adidas();
     
     ?>
@@ -158,7 +166,7 @@
                     
                 ?>
                     <div class="item">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="/css/admin/images/products/<?=$hinh?>" alt="ds"></a>
                     </div>
                 <?php }?>
 
@@ -173,7 +181,7 @@
         <div class="row ">
             <div class="col-md-6">
                 <div class="jus">
-                    <img src="../css/trang-chu/img/a3.jpg" alt="a">
+                    <img src="/css/trang-chu/img/a3.jpg" alt="a">
                 </div>
             </div>
             <div class="col-md-6">
@@ -271,7 +279,7 @@
                     extract($item);
                     ?>
                     <div class="item">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="/css/admin/images/products/<?=$hinh?>" alt="ds"></a>
                     </div>
                     <?php }?>
 
@@ -308,7 +316,7 @@
                 ?>
             <div class="col-md-3">
                 <div class="card">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img class="card-img-top" src="../../css/admin/images/products/<?=$hinh?>" alt="Card image top"></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img class="card-img-top" src="/css/admin/images/products/<?=$hinh?>" alt="Card image top"></a>
                     <div class="card-body">
                         <h5 class="card-title"><?=$ten_hh?></h5>
                         <p class="card-subtitle"><?=number_format($don_gia-($don_gia*$giam_gia/100)) ?> VNĐ</p>
