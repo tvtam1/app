@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/products.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/products.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/ihover-gh-pages/src/ihover.css">
-    <link rel="stylesheet" href="../css/ihover-gh-pages/src/ihover.min.css">
+    <link rel="stylesheet" href="/css/ihover-gh-pages/src/ihover.css">
+    <link rel="stylesheet" href="/css/ihover-gh-pages/src/ihover.min.css">
     <title>Document</title>
     <style>
         .sanpham{
@@ -96,7 +96,7 @@
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../css/danh-sach-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/danh-sach-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -110,9 +110,9 @@
                     session_start();
                     if(!isset($_SESSION['user'])){
                   ?>
-                  <a href="../../tai-khoan/dang-nhap.php"><p><strong>ĐĂNG NHẬP / ĐĂNG KÍ</strong></p></a> 
+                  <a href="/tai-khoan/dang-nhap.php"><p><strong>ĐĂNG NHẬP / ĐĂNG KÍ</strong></p></a> 
                     <?php }else{ ?>
-                  <a href="../../tai-khoan/thong-tin-tk.php"><p><strong>XIN CHÀO <?=$_SESSION['user']['ho_ten']?></strong></p></a>
+                  <a href="/tai-khoan/thong-tin-tk.php"><p><strong>XIN CHÀO <?=$_SESSION['user']['ho_ten']?></strong></p></a>
                 
                   <?php } ?>
                 </div>
@@ -228,7 +228,7 @@
 
                     <!-- CODE PHP DANH MỤC -->
                     <?php
-                        require_once ('../../admin/dao/loai-hang.php');
+                        require_once ('../admin/dao/loai-hang.php');
                         extract($_REQUEST);
                         $items = loai_hang_select_all();
                     ?>
@@ -250,7 +250,7 @@
                         <ul class="list-group">
                             <!-- CODE PHP SẢN PHẨM BÁN CHẠY -->
                         <?php
-                            require_once ('../../admin/dao/hang-hoa.php');
+                            require_once ('../admin/dao/hang-hoa.php');
                             extract($_REQUEST);
                             $items = hang_hoa_sale();
                         
@@ -292,7 +292,7 @@
                 <div class="sanpham">
                 <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><span class="chi-tiet">CHI TIẾT</span></a>
                    
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img  src="../../css/admin/images/products/<?=$hinh?>" alt=""><span class='hang-moi'>Hàng mới</span></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img  src="/css/admin/images/products/<?=$hinh?>" alt=""><span class='hang-moi'>Hàng mới</span></a>
                     <div class="glow-wrap">
     <i class="glow"></i>
   </div>
@@ -331,7 +331,7 @@
                             extract($item);
                     ?>
                     <div class="item">
-                        <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"><span class='noi-bat'>HOT</span></a>
+                        <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="/css/admin/images/products/<?=$hinh?>" alt="ds"><span class='noi-bat'>HOT</span></a>
                     </div>
                         <?php } ?>
 

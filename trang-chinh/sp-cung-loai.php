@@ -148,7 +148,7 @@
 
                     <!-- CODE PHP DANH MỤC -->
                     <?php
-                        require_once ('../../admin/dao/loai-hang.php');
+                        require_once ('../admin/dao/loai-hang.php');
                         extract($_REQUEST);
                         $items = loai_hang_select_all();
                     ?>
@@ -170,7 +170,7 @@
                         <ul class="list-group">
                             <!-- CODE PHP SẢN PHẨM BÁN CHẠY -->
                         <?php
-                            require_once ('../../admin/dao/hang-hoa.php');
+                            require_once ('../admin/dao/hang-hoa.php');
                             extract($_REQUEST);
                             $items = hang_hoa_sale();
                         

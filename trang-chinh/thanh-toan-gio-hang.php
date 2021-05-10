@@ -130,8 +130,8 @@
     
     <!-- CODE PHP THANH TOÁN GIỎ HÀNG -->
     <?php
-        require_once ('../../admin/dao/khach-hang.php');
-        require_once ('../../admin/dao/hang-hoa.php');
+        require_once ('../admin/dao/khach-hang.php');
+        require_once ('../admin/dao/hang-hoa.php');
 
         extract($_REQUEST);
         
@@ -247,7 +247,7 @@
 
             <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG -->
             <?php
-                require_once ('../../admin/dao/hoa-don.php');
+                require_once ('../admin/dao/hoa-don.php');
 
                 extract($_REQUEST);
                 if(array_key_exists('dathang',$_REQUEST)){
@@ -294,7 +294,7 @@
         
             <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG -->
             <?php
-                require_once ('../../admin/dao/hoa-don.php');
+                require_once ('../admin/dao/hoa-don.php');
 
                 extract($_REQUEST);
                 if(array_key_exists('dathangonline',$_REQUEST)){

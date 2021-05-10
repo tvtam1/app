@@ -158,7 +158,7 @@
         <div class="row">
         <!-- CODE PHO THÔNG TIN SẢN PHẨM -->
         <?php
-                    require_once ('../../admin/dao/hang-hoa.php');
+                    require_once ('../admin/dao/hang-hoa.php');
                         extract($_REQUEST);
                         $items = hang_hoa_select_by_id($ma_hh);
                         extract($items);
