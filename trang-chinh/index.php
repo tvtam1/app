@@ -368,15 +368,10 @@
                                         Xin cám ơn !
                                     </p>
                                 </li>
-                                <li>
-                                    <!-- <div style='white-space: nowrap;'> -->
-                                    <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
-                                     <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-firefox"></i></a>
-                                      <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-pinterest-p"></i></a>
-                                       <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-youtube"></i></a>
-            <!-- </div> -->
-                                </li>
                             </ul>
+                                                                <div style='white-space: nowrap;'>
+                                    <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
+            </div>
                         </div>
 
                     </div>
