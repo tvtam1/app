@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../../../../bigshoes/trang-chinh/"><strong style = "margin-left: 40px;">THE CLOSER</strong></a>
+                <a class="navbar-brand" href="../../../../app/trang-chinh/"><strong style = "margin-left: 40px;">THE CLOSER</strong></a>
             </div>
            
     <!-- Nav bar-->
@@ -116,7 +116,7 @@
 
                                 extract($_REQUEST);
                                 if(array_key_exists("btn_insert",$_REQUEST)){
-                                    $up_hinh = save_file("hinh", "../../../../bigshoes/css/admin/images/products/");
+                                    $up_hinh = save_file("hinh", "../../../../app/css/admin/images/products/");
                                     $hinh = strlen($up_hinh) > 0 ? $up_hinh : 'product.png';
 
                                     hang_hoa_insert($ten_hh,$hinh,$don_gia,$giam_gia,$mo_ta,$ma_loai);

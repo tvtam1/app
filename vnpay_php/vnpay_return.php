@@ -20,7 +20,7 @@
     </head>
     <body>
         <?php
-        require_once("../../bigshoes/admin/dao/hoa-don.php");
+        require_once("../../app/admin/dao/hoa-don.php");
         $vnp_SecureHash = $_GET['vnp_SecureHash'];
         $inputData = array();
         foreach ($_GET as $key => $value) {

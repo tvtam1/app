@@ -93,7 +93,7 @@
 
     function check_login(){
         if(!isset($_SESSION['user'])){      
-            header("location: /bigshoes/tai-khoan/dang-nhap.php");
+            header("location: /app/tai-khoan/dang-nhap.php");
         }
     }
     

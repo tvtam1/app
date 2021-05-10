@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../bigshoes/css/chi-tiet-sp/products.css">
+    <link rel="stylesheet" href="../../app/css/chi-tiet-sp/products.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../bigshoes/css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../bigshoes/css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../app/css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../app/css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,7 +22,7 @@
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../bigshoes/css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../../app/css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -36,9 +36,9 @@
                     session_start();
                     if(!isset($_SESSION['user'])){
                   ?>
-                  <a href="../../bigshoes/tai-khoan/dang-nhap.php"><p><strong>ĐĂNG NHẬP / ĐĂNG KÍ</strong></p></a> 
+                  <a href="../../app/tai-khoan/dang-nhap.php"><p><strong>ĐĂNG NHẬP / ĐĂNG KÍ</strong></p></a> 
                     <?php }else{ ?>
-                        <a href="../../bigshoes/tai-khoan/thong-tin-tk.php"><p><strong>XIN CHÀO <?=$_SESSION['user']['ho_ten']?></strong></p></a>
+                        <a href="../../app/tai-khoan/thong-tin-tk.php"><p><strong>XIN CHÀO <?=$_SESSION['user']['ho_ten']?></strong></p></a>
                   <?php } ?>
                 </div>
 
@@ -130,8 +130,8 @@
     
     <!-- CODE PHP THANH TOÁN GIỎ HÀNG -->
     <?php
-        require_once ('../../bigshoes/admin/dao/khach-hang.php');
-        require_once ('../../bigshoes/admin/dao/hang-hoa.php');
+        require_once ('../../app/admin/dao/khach-hang.php');
+        require_once ('../../app/admin/dao/hang-hoa.php');
 
         extract($_REQUEST);
         
@@ -247,7 +247,7 @@
 
             <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG -->
             <?php
-                require_once ('../../bigshoes/admin/dao/hoa-don.php');
+                require_once ('../../app/admin/dao/hoa-don.php');
 
                 extract($_REQUEST);
                 if(array_key_exists('dathang',$_REQUEST)){
@@ -291,7 +291,7 @@
         
             <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG -->
             <?php
-                require_once ('../../bigshoes/admin/dao/hoa-don.php');
+                require_once ('../../app/admin/dao/hoa-don.php');
 
                 extract($_REQUEST);
                 if(array_key_exists('dathangonline',$_REQUEST)){
