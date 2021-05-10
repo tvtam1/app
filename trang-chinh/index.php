@@ -8,6 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Trang chủ</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=OtiUo2flbdEAX_dyQES&_nc_ht=scontent.fpnh22-2.fna&oh=db19836dfddbf8cf02e942468bcdd64b&oe=60BD403A"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.theme.default.min.css">

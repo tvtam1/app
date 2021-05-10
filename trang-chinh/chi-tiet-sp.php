@@ -231,7 +231,7 @@
                     </ul>
                    </div>
                    <div class="row">
-                     <a href="danh-sach-sp.php"><img src="/css/chi-tiet-sp/img/SALE.png" height='500' alt="" style="width:100%"></a>  
+                     <a href="danh-sach-sp.php"><img src="/css/chi-tiet-sp/img/SALE.png" height='400' alt="" style="width:100%"></a>  
                    </div>
                 </div>
             </div>
