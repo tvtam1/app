@@ -183,7 +183,7 @@
                         <li>
                             <h2>CTKM SALE UP TO<span> 50%</span> toàn bộ sản phẩm tại shop !</h2>
                         </li>
-                        <li>Sự kiện diễn ra đến hết tháng 12/2020</li>
+                        <li>Sự kiện diễn ra đến hết tháng 5/2021</li>
                         <li>
                             <a href="danh-sach-sp.php">XEM NGAY</a>
                         </li>
@@ -206,7 +206,7 @@
                             <p><i class="fa fa-shopping-bag"></i></p>
                         </li>
                         <li>
-                            <p><span>Miễn phí</span> vận chuyển <br> cho các đơn hàng > 200K</p>
+                            <p><span>Miễn phí</span> vận chuyển <br> cho các đơn hàng > 2.000K</p>
                         </li>
                     </ul>
                 </div>
@@ -368,7 +368,7 @@
                                         Xin cám ơn !
                                     </p>
                                 </li>
-                                <li><i class="fa fa-facebook "></i>
+                                <li><i class="fa fa-facebook" href='https://www.facebook.com/Theclosershoesstore'></i>
                                     <i class="fa fa-firefox"></i>
                                     <i class="fa fa-pinterest-p"></i>
                                     <i class="fa fa-youtube"></i>
