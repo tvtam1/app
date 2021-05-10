@@ -369,10 +369,12 @@
                                     </p>
                                 </li>
                                 <li>
+                                    <div style='white-space: nowrap;'>
                                     <a href='https://www.facebook.com/Theclosershoesstore'><i class="fa fa-facebook"></i></a>
                                     <i class="fa fa-firefox"></i>
                                     <i class="fa fa-pinterest-p"></i>
                                     <i class="fa fa-youtube"></i>
+            </div>
                                 </li>
                             </ul>
                         </div>
