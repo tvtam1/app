@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/trang-chu/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/app/css/trang-chu/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/app/css/trang-chu/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/trang-chu/style.css">
+    <link rel="stylesheet" href="/app/css/trang-chu/style.css">
 </head>
 <body>
 
@@ -28,8 +28,8 @@
               </video> -->
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
       </iframe> -->
-            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute=1" 
-      frameborder="0" allow="autoplay"></iframe>
+            <iframe  id="myVideo" src="https://www.youtube.com/embed/5L04JwtimN0?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute=1&autoplay=1" 
+      allow="autoplay" allowfullscreen></iframe>
                           <!-- <iframe  autoplay muted loop id="myVideo" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"></iframe>
       </iframe> -->
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5L04JwtimN0?controls=0&amp;start=2" 
