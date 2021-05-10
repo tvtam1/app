@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/products.css">
-    <link rel="stylesheet" href="../../css/tin-tuc/tintuc.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/products.css">
+    <link rel="stylesheet" href="/css/tin-tuc/tintuc.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -124,7 +124,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <img src="../../css/tin-tuc/img/1.jpg" alt="">
+                                    <img src="/css/tin-tuc/img/1.jpg" alt="">
                                 </td>
                                 <td>
                                     <p>Nike Air Max làm từ tảo biển tuy xấu nhưng vẫn rất bán hết sạch </p>
@@ -132,7 +132,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../css/tin-tuc/img/2.jpg" alt="">
+                                    <img src="/css/tin-tuc/img/2.jpg" alt="">
                                 </td>
                                 <td>
                                     <p>Ai đăng ký trước mới mua được giày Pegasus Or Bike Console</p>
@@ -140,7 +140,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../css/tin-tuc/img/3.jpg" alt="">
+                                    <img src="/css/tin-tuc/img/3.jpg" alt="">
                                 </td>
                                 <td>
                                     <p>10 phụ kiện mà tín đồ mê giày nên am hiểu và vận dụng tốt </p>
@@ -148,7 +148,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../css/tin-tuc/img/5.jpg" alt="">
+                                    <img src="/css/tin-tuc/img/5.jpg" alt="">
                                 </td>
                                 <td>
                                     <p>Top giày Jordan ấn tượng sắp ra mắt vào mùa xuân 2021 </p>
@@ -156,7 +156,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../css/tin-tuc/img/7.jpg" alt="">
+                                    <img src="/css/tin-tuc/img/7.jpg" alt="">
                                 </td>
                                 <td>
                                     <p>Hệ thống giày THE CLOSER - Uy tín làm nên thương hiệu </p>
@@ -180,7 +180,7 @@
 
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/6.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/6.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -192,13 +192,13 @@
                             <p class="card-text">Top 10 những đôi giày nổi bật tại THE CLOSER</p>
                             <p class="gach"></p>
                             <p class="nho">Với hệ thống giày lớn đầy đủ mẫu mã đa dạng thỳ ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/5.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/5.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -210,13 +210,13 @@
                             <p class="card-text">Chương trình khuyến mãi tri ân khách hàng thành viên</p>
                             <p class="gach"></p>
                             <p class="nho">Tới đây sẽ có những ưu đãi cho những khách hàng thành viên ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/7.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/7.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -228,13 +228,13 @@
                             <p class="card-text">Neymar sẽ lựa chọn giày nào để dự tiệc đám cưới Messi ?</p>
                             <p class="gach"></p>
                             <p class="nho">Sắp tới đây sẽ có 1 sự kiện quan trọng cho bóng đá ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/8.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/8.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -246,13 +246,13 @@
                             <p class="card-text">Nike Air One - giá rẻ nhưng chất lượng không rẻ</p>
                             <p class="gach"></p>
                             <p class="nho">Nike đã cho ra đời dòng sản phẩm Nike Air One trên ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/2.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/2.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -264,13 +264,13 @@
                             <p class="card-text">Top 5 đôi giày được các bạn nữ yêu thích nhất</p>
                             <p class="gach"></p>
                             <p class="nho">Dựa trên 1 cuộc khảo sát tại THE CLOSER đôi giày mà ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>
 
                     <div class="card" style="width: 14rem;">
-                        <img src="../../css/tin-tuc/img/1.jpg" class="card-img-top" alt="...">
+                        <img src="/css/tin-tuc/img/1.jpg" class="card-img-top" alt="...">
                         <div class="card-body" style="
                         padding-top: 0px;
                         padding-right: 0px;
@@ -282,7 +282,7 @@
                             <p class="card-text">Adidas First One - sự lựa chọn hoàn hảo</p>
                             <p class="gach"></p>
                             <p class="nho">Adidas Fist One hiện đang làm mưa làm gió trên ...</p>
-                            <p class="ngay"> <img src="../../css/tin-tuc/img/h.png" alt=""> </p>
+                            <p class="ngay"> <img src="/css/tin-tuc/img/h.png" alt=""> </p>
 
                         </div>
                     </div>

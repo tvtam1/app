@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/products.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/products.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../css/danh-sach-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/danh-sach-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../css/danh-sach-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/danh-sach-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -181,7 +181,7 @@
                                 ?>
                             <li class="list-group-item">
                                 <div class="row">
-                                    <div class="col-sm-4"><a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>&ma_loai=<?=$ma_loai?>"><img style="width:80px;" src="../../css/admin/images/products/<?=$hinh?>" alt=""></a></div>
+                                    <div class="col-sm-4"><a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>&ma_loai=<?=$ma_loai?>"><img style="width:80px;" src="/css/admin/images/products/<?=$hinh?>" alt=""></a></div>
                                     <div class="col-sm-8"><?=$ten_hh?><br><br><b><?=number_format($don_gia-($don_gia*$giam_gia/100))?> VNĐ</b></div>
                                 </div>
                             </li>
@@ -213,7 +213,7 @@
 
             ?>
                 <div class="sanpham">
-                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img src="../../css/admin/images/products/<?=$hinh?>" alt=""></a>
+                    <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img src="/css/admin/images/products/<?=$hinh?>" alt=""></a>
                     <div class="text">
                         <div class="price">
                             <?=$don_gia?> VNĐ
@@ -249,7 +249,7 @@
                             extract($item);
                     ?>
                     <div class="item">
-                        <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"></a>
+                        <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="/css/admin/images/products/<?=$hinh?>" alt="ds"></a>
                     </div>
                         <?php } ?>
 

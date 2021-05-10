@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/products.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/products.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -134,19 +134,19 @@ Chính thức hoạt động từ năm 2021, đi cùng những cố gắng và n
         <div class="row">
             <div class="col-sm-6">
                 <div class="row">
-                    <div class="col-sm-2"><img src="../css/trang-chu/img/freeship.jpg" alt="" style = "width:80px;"></div>
+                    <div class="col-sm-2"><img src="/css/trang-chu/img/freeship.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Miễn phí giao hàng</b> <br>  
                     Shop miễn phí giao hàng cho tất cả các đơn hàng trên 2.000.000 VNĐ. Giao hàng nhanh chóng và đảm bảo hàng nguyên vẹn cho quý khách !</div>
                 </div><br>
                 <div class="row">
-                    <div class="col-sm-2"><img src="../css/trang-chu/img/new.jpg" alt="" style = "width:80px;"></div>
+                    <div class="col-sm-2"><img src="/css/trang-chu/img/new.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Sản phẩm mới 100%</b> <br>  
 Sản phẩm tại shop đảm bảo là sản phẩm mới 100% và được nhập khẩu từ các nhãn hàng uy tín trên toàn quốc và trên thế giới.</div>
                 </div><br>
                 <div class="row">
-                <div class="col-sm-2"><img src="../css/trang-chu/img/chinhhang.jpg" alt="" style = "width:80px;"></div>
+                <div class="col-sm-2"><img src="/css/trang-chu/img/chinhhang.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Hàng chính hãng</b> <br>  
                     Sản phẩm tại shop đảm bảo là sản phẩm chính hãng và được nhập khẩu từ các nhãn hàng uy tín trên toàn quốc và trên thế giới.</div>
@@ -155,19 +155,19 @@ Sản phẩm tại shop đảm bảo là sản phẩm mới 100% và được nh
 
             <div class="col-sm-6">
                 <div class="row">
-                    <div class="col-sm-2"><img src="../css/trang-chu/img/doitra.jpg" alt="" style = "width:80px;"></div>
+                    <div class="col-sm-2"><img src="/css/trang-chu/img/doitra.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Đổi trả trong vòng 7 ngày</b> <br>  
 Shop có chính sách đổi trả trong vòng 7 ngày đối với những khách hàng có nhu cầu đổi trả sản phẩm 1 cách nhanh chóng và tận tình</div>
                 </div><br>
                 <div class="row">
-                    <div class="col-sm-2"><img src="../css/trang-chu/img/cskh.jpg" alt="" style = "width:80px;"></div>
+                    <div class="col-sm-2"><img src="/css/trang-chu/img/cskh.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Chăm sóc khách hàng</b> <br>  
 Chế độ chăm sóc khách hàng tại shop tận tình , nhiệt tình hỗ trợ và phục vụ quý khách chu đáo.Đáp ứng nhu cầu của mọi khách hàng ! </div>
                 </div><br>
                 <div class="row">
-                <div class="col-sm-2"><img src="../css/trang-chu/img/thanhtoan.jpg" alt="" style = "width:80px;"></div>
+                <div class="col-sm-2"><img src="/css/trang-chu/img/thanhtoan.jpg" alt="" style = "width:80px;"></div>
                     <div class="col-sm-10">
                     <b>Thanh toán đa dạng</b> <br>  
 Thanh toán tại shop đa dạng bằng cách trả tiền mặt hoặc sử dụng các loại thẻ như : VISA, MASTER CARD ,VÍ ĐIỆN TỬ ....</div>

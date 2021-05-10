@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/products.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/products.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/chi-tiet-sp/plugin/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
     <style>
@@ -40,7 +40,7 @@
 
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="../../css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/css/chi-tiet-sp/plugin/js/owl.carousel.min.js"></script>
 
 
     <div class="container-fluid">
@@ -165,7 +165,7 @@
                     ?>
             <div class="col-md-4" style="padding-left: 0px">
                 <div class="spchitiet">
-                    <img src="../../css/admin/images/products/<?=$hinh?>" alt="" style="width:100%;">
+                    <img src="/css/admin/images/products/<?=$hinh?>" alt="" style="width:100%;">
                 </div>
             </div>
             <div class="col-md-5">
@@ -178,7 +178,7 @@
                         <li><del><?=number_format($don_gia)?></del> VNĐ</li>
                         <li style = "font-size:30px;"><?=number_format($don_gia - $don_gia*($giam_gia/100))?> VNĐ</li>
                         <li style="margin-top: 15px;"><?=$mo_ta?></li>
-                        <li class="gu" style="margin-top: 20px;"> <img src="../../css/chi-tiet-sp/img/ttt.png" alt=""> </li>
+                        <li class="gu" style="margin-top: 20px;"> <img src="/css/chi-tiet-sp/img/ttt.png" alt=""> </li>
                         <li class="size" style="margin-top: 20px;">
                             <div class="soluong">
                                 <select name="" id="">
@@ -223,15 +223,15 @@
                    <div class="row">
                    <h5>PHƯƠNG THỨC THANH TOÁN</h5>
                     <ul>
-                        <li> <img src="../../css/chi-tiet-sp/img/l2.png" alt=""> </li>
-                        <li> <img src="../../css/chi-tiet-sp/img/l1.png" alt=""> </li><br>
-                        <li> <img src="../../css/chi-tiet-sp/img/l4.png" alt=""> </li>
+                        <li> <img src="/css/chi-tiet-sp/img/l2.png" alt=""> </li>
+                        <li> <img src="/css/chi-tiet-sp/img/l1.png" alt=""> </li><br>
+                        <li> <img src="/css/chi-tiet-sp/img/l4.png" alt=""> </li>
 
-                        <li> <img src="../../css/chi-tiet-sp/img/l3.png" alt=""> </li>
+                        <li> <img src="/css/chi-tiet-sp/img/l3.png" alt=""> </li>
                     </ul>
                    </div>
                    <div class="row">
-                     <a href="danh-sach-sp.php"><img src="../../css/chi-tiet-sp/img/SALE.png" alt="" style="width:100%"></a>  
+                     <a href="danh-sach-sp.php"><img src="/css/chi-tiet-sp/img/SALE.png" alt="" style="width:100%"></a>  
                    </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@
                         
                     ?>
                     <div class="item">
-                       <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="../../css/admin/images/products/<?=$hinh?>" alt="ds"><span class='cung-loai'><?=$ten_loai?></span></a>
+                       <a href="chi-tiet-sp.php?ma_hh=<?=$ma_hh?>"><img style="width: 200px" src="/css/admin/images/products/<?=$hinh?>" alt="ds"><span class='cung-loai'><?=$ten_loai?></span></a>
                     </div>
                         <?php } ?>
                 </div>

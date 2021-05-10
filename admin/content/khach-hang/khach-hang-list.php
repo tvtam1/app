@@ -7,11 +7,11 @@
     <meta content="webthemez" name="author" />
     <title>ADMIN</title>
 	<!-- Bootstrap Styles-->
-    <link href="../../../css/admin/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/admin/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
-    <link href="../../../css/admin/css/font-awesome.css" rel="stylesheet" />
+    <link href="/css/admin/css/font-awesome.css" rel="stylesheet" />
         <!-- Custom Styles-->
-    <link href="../../../css/admin/css/custom-styles.css" rel="stylesheet" />
+    <link href="/css/admin/css/custom-styles.css" rel="stylesheet" />
      <!-- Google Fonts-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -153,13 +153,13 @@
      <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
-    <script src="../../../css/admin/js/jquery-1.10.2.js"></script>
+    <script src="/css/admin/js/jquery-1.10.2.js"></script>
       <!-- Bootstrap Js -->
-    <script src="../../../css/admin/js/bootstrap.min.js"></script>
+    <script src="/css/admin/js/bootstrap.min.js"></script>
     <!-- Metis Menu Js -->
-    <script src="../../../css/admin/js/jquery.metisMenu.js"></script>
+    <script src="/css/admin/js/jquery.metisMenu.js"></script>
       <!-- Custom Js -->
-    <script src="../../../css/admin/js/custom-scripts.js"></script>
+    <script src="/css/admin/js/custom-scripts.js"></script>
     
    
 </body>
