@@ -38,6 +38,8 @@
 		if(array_key_exists('btn_register',$_REQUEST)){
 			khach_hang_insert($ma_kh,$ho_ten,$mat_khau,$email,$dia_chi);
 
+			header("location: dang-nhap.php");
+
 			echo '<script language="javascript">';
             echo 'alert("Mời bạn đăng nhập để mua hàng !")';
 			echo '</script>';
