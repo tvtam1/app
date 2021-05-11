@@ -100,7 +100,7 @@
 					<div class="text-center p-t-90">
 						<a class="txt1" href="dang-nhap.php">
 							Đăng nhập?&nbsp;
-						</a>OR
+						</a>hay
 						<a class="txt1" href="quen-mk.php">
 						&nbsp;Quên mật khẩu?
 						</a>

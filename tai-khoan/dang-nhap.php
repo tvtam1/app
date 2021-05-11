@@ -98,7 +98,7 @@
 						<a class="txt1" href="dang-ky.php">
 							Đăng ký?&nbsp;
 						</a>
-						OR
+						hay
 						<a class="txt1" href="quen-mk.php">
 						&nbsp;Quên mật khẩu?
 						</a>
