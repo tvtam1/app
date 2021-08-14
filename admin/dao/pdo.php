@@ -1,28 +1,8 @@
 <?php
     function pdo_get_connection(){
-//         if(isset(getenv('JAWSDB_URL'))){
-//             $url = getenv('JAWSDB_URL');
-// $dbparts = parse_url($url);
-
-// $hostname = $dbparts['host'];
-// $username = $dbparts['user'];
-// $password = $dbparts['pass'];
-// $database = ltrim($dbparts['path'],'/');
-// $conn = mysqli_connect($hostname, $username, $password, $database);
-
-// // Check connection
-// if (!$conn) {
-//     die("Connection failed: " . mysqli_connect_error());
-// }
-// echo "Connection was successfully established!";
-//         } else
-//         {
-        // $pdo = new PDO("mysql:host=localhost;dbname=bigshoes",'root','');
         $pdo = new PDO("mysql:host=wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=i39ofxadpc39r225",'jq8o2jhf7i5qgt0a','rv118na9f99comeb');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
-        // }
-        // mysql -h host=wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u jq8o2jhf7i5qgt0a -prv118na9f99comeb i39ofxadpc39r225 < bigshoes.sql
     }
 
     function pdo_execute($sql){//thêm dữ liệu

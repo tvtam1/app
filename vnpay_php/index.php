@@ -1,6 +1,23 @@
-<?php
- $total_money=$price;
-?>
+<?php 
+    session_start();
+    if(isset($_REQUEST['order_id']) && !empty($_REQUEST['order_id'])){
+        $order_id = $_REQUEST['order_id'];
+    }
+    else{
+        echo"<script>
+                    alert('Chưa đưa được order_id !');
+                    </script>";
+    }
+    if(isset($_REQUEST['total']) && !empty($_REQUEST['total'])){
+        $total = $_REQUEST['total'];
+    }
+    else{
+        echo"<script>
+                    alert('Chưa đưa được total!');
+                    </script>";
+    }
+ ?>
+             
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -39,12 +56,12 @@
                     </div>
                     <div class="form-group">
                         <label for="order_id">Mã hóa đơn</label>
-                        <input class="form-control" id="order_id" name="order_id" type="text" value="<?php echo date("YmdHis") ?>"/>
+                        <input class="form-control" id="order_id" name="order_id" type="text" value="<?php echo  $order_id ?? '' ?>" readonly/>
                     </div>
                     <div class="form-group">
                         <label for="amount">Số tiền</label>
                         <input class="form-control" id="amount"
-                               name="amount" type="number" value="<?$total_money?>" readonly/>
+                               name="amount" type="number" value="<?php echo  $total ?? '' ?>" readonly/>
                     </div>
                     <div class="form-group">
                         <label for="order_desc">Nội dung thanh toán</label>
@@ -86,8 +103,7 @@
                         </select>
                     </div>
 
-                    <button type="submit" class="btn btn-primary" id="btnPopup">Thanh toán Popup</button>
-                    <button type="submit" class="btn btn-default">Thanh toán Redirect</button>
+                    <button type="submit" class="btn btn-primary" id="btnPopup">Xác nhận thanh toán</button>
 
                 </form>
             </div>
@@ -111,11 +127,7 @@
                     dataType: 'JSON',
                     success: function (x) {
                         if (x.code === '00') {
-                            if (window.vnpay) {
-                                vnpay.open({width: 768, height: 600, url: x.data});
-                            } else {
-                                location.href = x.data;
-                            }
+                            location.href = x.data;
                             return false;
                         } else {
                             alert(x.Message);

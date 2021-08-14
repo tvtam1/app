@@ -20,7 +20,8 @@
     </head>
     <body>
         <?php
-        require_once("../../admin/dao/hoa-don.php");
+        require_once("../../admin/dao/pdo.php");
+        require_once("./config.php");
         $vnp_SecureHash = $_GET['vnp_SecureHash'];
         $inputData = array();
         foreach ($_GET as $key => $value) {
@@ -95,8 +96,11 @@
                                 $code_bank = $_GET['vnp_BankCode'];
                                 $time = $_GET['vnp_PayDate'];
                                 $date_time = substr($time, 0, 4) . '-' . substr($time, 4, 2) . '-' . substr($time, 6, 2) . ' ' . substr($time, 8, 2) . ' ' . substr($time, 10, 2) . ' ' . substr($time, 12, 2);
-                                include("../code/modules/kndatabase.php");
-                                $taikhoan = $_SESSION['tk'];
+
+
+                                // require to get $con to database
+                                $conn = new mysqli("wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","jq8o2jhf7i5qgt0a","rv118na9f99comeb","i39ofxadpc39r225");
+                                $taikhoan = '';
                                 $sql = "SELECT * FROM payments WHERE order_id = '$order_id'";
                                 $query = mysqli_query($conn, $sql);
                                 $row = mysqli_num_rows($query);
@@ -109,6 +113,8 @@
                                     $sql = "INSERT INTO payments(order_id, thanh_vien, money, note, vnp_response_code, code_vnpay, code_bank, time) VALUES ('$order_id', '$taikhoan', '$money', '$note', '$vnp_response_code', '$code_vnpay', '$code_bank','$date_time')";
                                     mysqli_query($conn, $sql);
                                 }
+                                $sql = "UPDATE hoa_don SET tinh_trang='1' WHERE ma_hd = '$order_id'";   
+                                mysqli_query($conn, $sql);
                                 
                                 echo "GD Thanh cong";
                             } else {
@@ -121,7 +127,7 @@
 
                     </label>
                     <br>
-                    <a href="../code/hocvien_thanhtoan.php">
+                    <a href="https://the-closer.herokuapp.com/trang-chinh/danh-sach-sp.php">
                         <button>Quay lại</button>
                     </a>
                 </div> 
@@ -130,7 +136,7 @@
                 &nbsp;
             </p>
             <footer class="footer">
-                <p>&copy; Quản lý Tiếng Anh 2020</p>
+                <p>&copy; VNPAY 2020</p>
             </footer>
         </div>  
     </body>

@@ -1,3 +1,7 @@
+<<?php 
+ob_start(); 
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -234,11 +238,11 @@
                 </tr>
                 <tr>
                         <td><button type="submit" name="dathang" class="btn btn-danger"><b>ĐẶT HÀNG</b></button></td>
-                        <td><button type="submit" name="dathangonline" class="btn"><a href="https://test-payment.momo.vn/gw_payment/transactionProcessor">ĐẶT HÀNG VÀ THANH TOÁN ONLINE</a></button></td>
+                        <td><button type="submit" name="dathangonline" class="btn">ĐẶT HÀNG VÀ THANH TOÁN VNPAY</a></button></td>
                 </tr>
                 </tbody>
             </table>        
-            <a href="danh-sach-sp.php">Tiếp tục mua sắm</a>
+            <li><a href="danh-sach-sp.php">Tiếp tục mua sắm</a></li>
             </form>
             </div>
         </div>
@@ -292,7 +296,7 @@
                
                 ?>
         
-            <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG -->
+            <!-- KHI KHÁCH HÀNG TIẾN HÀNH ĐẶT HÀNG ONLINE -->
             <?php
                 require_once ('../admin/dao/hoa-don.php');
 
@@ -322,20 +326,20 @@
                         extract($item);
                         $sql = "INSERT INTO hoa_don_chi_tiet(ma_hd,ma_hh,so_luong,don_gia) VALUES ('".$ma_hd."','".$ma_hh."','".$sl."','".$price."')";
                         $conn->exec($sql);
-
+                        unset($_SESSION['cart'][$ma_hh]);
                         
                     }
-                    echo '<script language="javascript">';
-                    echo 'alert("Bạn đã đặt đơn hàng thành công !")';
-                    echo '</script>';
+                    echo"<script>
+                    alert($total);
+                    </script>";
+                    header("Location: http://localhost/bigshoes/vnpay_php/index.php?order_id=" .$ma_hd. "&total=".$total);
+                    exit();
                 } 
 
                 catch (PDOException $e) {
                     echo $e->getMessage();
                 }
                 }  
-
-               
                 ?>
    
 

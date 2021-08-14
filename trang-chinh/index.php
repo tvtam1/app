@@ -33,7 +33,7 @@
 
                 <div class="col-sm-2">
                     <div class="logo">
-
+                    <img src="/css/trang-chu/img/logo.png " alt="">
                     </div>
 
                 </div>
