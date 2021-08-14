@@ -116,7 +116,7 @@
 
                                 extract($_REQUEST);
                                 if(array_key_exists("btn_insert",$_REQUEST)){
-                                    $up_hinh = save_file("hinh", "../../../../css/admin/images/products/");
+                                    $up_hinh = save_file("hinh", "../../../css/admin/images/products/");
                                     $hinh = strlen($up_hinh) > 0 ? $up_hinh : 'product.png';
 
                                     hang_hoa_insert($ten_hh,$hinh,$don_gia,$giam_gia,$mo_ta,$ma_loai);
@@ -133,7 +133,7 @@
 
                             <div class="form-group">
                             <label for="">Đơn giá</label>
-                            <input type="number" class="form-control" id="don_gia" name="don_gia"
+                            <input type="number" class="form-control" id="don_gia" name="don_gia" min="0" max="99999999"
                                 placeholder="Nhập đơn giá ...">
                             </div>
 
@@ -171,7 +171,7 @@
 		</div>
             </div>
          <!-- /. PAGE WRAPPER  -->
-        </div>
+         </div>
      <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->

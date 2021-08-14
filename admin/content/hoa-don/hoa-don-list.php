@@ -137,11 +137,19 @@
                                         <a href="thanh-toan-gio-hang.php?ma_hd=<?=$ma_hd?>">
                                         <?php
                                             if($tinh_trang == 0){
-                                                echo '<button class="btn btn-danger name="thanh_toan">';
+                                                echo '<button class="btn btn-warning name="thanh_toan">';
                                                 echo "Chưa thanh toán";
-                                            }else{
-                                                echo '<button class="btn btn-primary name ="thanh_toan">';
-                                                echo "Đã thanh toán";
+                                               
+                                            }
+                                            else if($tinh_trang == 1){
+                                                echo '<button class="btn btn-primary name="thanh_toan">';
+                                                echo "Đã thanh toán ";
+                                                
+                                            }
+                                            else   {
+                                                echo '<button class="btn btn-danger name ="thanh_toan">';
+                                                echo "Hủy";
+                                               
                                             }
                                         ?>
                                         </button></a>

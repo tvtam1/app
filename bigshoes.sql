@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 09, 2021 lúc 09:44 AM
+-- Thời gian đã tạo: Th8 14, 2021 lúc 11:12 AM
 -- Phiên bản máy phục vụ: 10.4.18-MariaDB
 -- Phiên bản PHP: 8.0.3
 
@@ -30,33 +30,33 @@ SET time_zone = "+00:00";
 
 USE `i39ofxadpc39r225`;
 
-CREATE TABLE `payments` (
-  `id` int(11) NOT NULL,
-  `order_id` varchar(255) NOT NULL,
-  `thanh_vien` varchar(100) NOT NULL COMMENT 'thành viên thanh toán',
-  `money` float NOT NULL COMMENT 'số tiền thanh toán',
-  `note` varchar(255) DEFAULT NULL COMMENT 'ghi chú thanh toán',
-  `vnp_response_code` varchar(255) NOT NULL COMMENT 'mã phản hồi',
-  `code_vnpay` varchar(255) NOT NULL COMMENT 'mã giao dịch vnpay',
-  `code_bank` varchar(255) NOT NULL COMMENT 'mã ngân hàng',
-  `time` datetime NOT NULL COMMENT 'thời gian chuyển khoản'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+-- CREATE TABLE `payments` (
+--   `id` int(11) NOT NULL,
+--   `order_id` varchar(255) NOT NULL,
+--   `thanh_vien` varchar(100) NOT NULL COMMENT 'thành viên thanh toán',
+--   `money` float NOT NULL COMMENT 'số tiền thanh toán',
+--   `note` varchar(255) DEFAULT NULL COMMENT 'ghi chú thanh toán',
+--   `vnp_response_code` varchar(255) NOT NULL COMMENT 'mã phản hồi',
+--   `code_vnpay` varchar(255) NOT NULL COMMENT 'mã giao dịch vnpay',
+--   `code_bank` varchar(255) NOT NULL COMMENT 'mã ngân hàng',
+--   `time` datetime NOT NULL COMMENT 'thời gian chuyển khoản'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `payments` (`id`, `order_id`, `thanh_vien`, `money`, `note`, `vnp_response_code`, `code_vnpay`, `code_bank`, `time`) VALUES
-(1, '742874161', 'abc', 100000, 'chinh chuyển khoản', '00', '13401455', 'NCB', '2020-10-10 01:00:00'),
-(2, '608324672', 'abc', 1000000, 'test chuyển khoản', '00', '13401811', 'NCB', '2020-10-11 21:00:00'),
-(3, '1134065293', 'CT2', 150000, 'học phí', '00', '13407163', 'NCB', '2020-10-22 23:00:00'),
-(4, '596509313', 'CT2', 5000000, 'học phí', '00', '13407176', 'NCB', '2020-10-23 00:00:00'),
-(5, '70267166', 'CT2', 5000000, 'học phí', '00', '13407178', 'NCB', '2020-10-23 00:00:00'),
-(6, '1672349048', 'CT1', 150000, 'học phí', '00', '13407729', 'NCB', '2020-10-23 21:00:00');
+-- INSERT INTO `payments` (`id`, `order_id`, `thanh_vien`, `money`, `note`, `vnp_response_code`, `code_vnpay`, `code_bank`, `time`) VALUES
+-- (1, '742874161', 'abc', 100000, 'chinh chuyển khoản', '00', '13401455', 'NCB', '2020-10-10 01:00:00'),
+-- (2, '608324672', 'abc', 1000000, 'test chuyển khoản', '00', '13401811', 'NCB', '2020-10-11 21:00:00'),
+-- (3, '1134065293', 'CT2', 150000, 'học phí', '00', '13407163', 'NCB', '2020-10-22 23:00:00'),
+-- (4, '596509313', 'CT2', 5000000, 'học phí', '00', '13407176', 'NCB', '2020-10-23 00:00:00'),
+-- (5, '70267166', 'CT2', 5000000, 'học phí', '00', '13407178', 'NCB', '2020-10-23 00:00:00'),
+-- (6, '1672349048', 'CT1', 150000, 'học phí', '00', '13407729', 'NCB', '2020-10-23 21:00:00');
 
-ALTER TABLE `payments`
-  ADD PRIMARY KEY (`id`);
+-- ALTER TABLE `payments`
+--   ADD PRIMARY KEY (`id`);
 
--- AUTO_INCREMENT for table `payments`
---
-ALTER TABLE `payments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+-- -- AUTO_INCREMENT for table `payments`
+-- --
+-- ALTER TABLE `payments`
+--   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 CREATE TABLE `binh_luan` (
   `ma_bl` int(11) NOT NULL,
@@ -128,7 +128,7 @@ INSERT INTO `hang_hoa` (`ma_hh`, `ten_hh`, `hinh`, `don_gia`, `giam_gia`, `mo_ta
 (58, 'Converse Chuck70s Hightop', 'Chuck70s.jpg', 2000000, 1, 'Converse là một công ty giày của Mỹ chuyên sản xuất giày trượt ván, giày dép thường ngày và quần áo. Được thành lập vào năm 1908, đến này Converse đã trở thành một công ty con của Nike, Inc. kể từ năm 2003.\r\n\r\nTrong suốt chiến tranh thế giới lần thứ II, từ một công ty chuyên gia công giày cho cộng đồng, Converse đã chuyển sang chuyên sản xuất các mẫu giày phục vụ cho quân đội. Đây là một trong số ít những nhà sản xuất sản phẩm giày thể thao thống trị thị trường giày của Mỹ trong suốt hơn một nửa', 20),
 (59, 'Biti\'s Hunter Nameless Edition x Công Trí', 'namelessedition.jpg', 1490000, 2, 'Sản phẩm đồng sáng tạo cùng biểu tượng đương đại - Nguyễn Công Trí  ✨\r\nBiti\'s Hunter và NTK Công Trí hướng đến những người trẻ hiện đại, không bó mình vào một \"hình dáng\" hoặc rào cản nào nhất định mà dễ dàng thay đổi, thích nghi với cuộc sống đa chiều. Biti’s Hunter cùng NTK Công Trí hướng đến những trải nghiệm thách thức khuôn khổ, không gò bó và áp đặt bởi bất kỳ điều gì, giúp các bạn trẻ tiếp tục lan toả cảm hứng, tự tin thể hiện cái tôi, vượt qua giới hạn của chính bản thâ', 27),
 (60, 'Biti\'s Hunter Street x Vietmax 2020 - BST HaNoi Cu', 'vietmaxhanoi.jpg', 899000, 0, 'iếp nối tinh thần #ProudlyMadeinVietNam, nếu 2019 là hơi thở của một Sài Gòn xô bồ mà phóng khoáng, không hoàn hảo nhưng vẫn đáng tự hào, thì 2020 là một nguồn cảm hứng rất khác - tự hào từ những thái cực văn hóa Hà Nội.\r\n\r\nỪ đúng rồi, Hà Nội của bạn đấy!\r\n\r\nKhi nóng điên dại, lúc lạnh thì tím tái\r\n\r\nLà mái ngói sánh vai phố thị ồn ã\r\n\r\nLà bê tông chọc trời cạnh mặt hồ thơ, ta rảo bước tìm ai\r\n\r\nHà Nội không vội, và cũng chẳng nửa vời\r\n\r\nĐiên đến nơi, hào hoa đến chốn\r\n\r\n \r\n\r\nHà Nội đâu chỉ đẹp ', 27),
-(61, 'Biti\'s Hunter Street x Vietmax 2020 - BST HaNoi Cu', 'bitisturqouise.jpg', 899000, 0, 'Tiếp nối tinh thần #ProudlyMadeinVietNam, nếu 2019 là hơi thở của một Sài Gòn xô bồ mà phóng khoáng, không hoàn hảo nhưng vẫn đáng tự hào, thì 2020 là một nguồn cảm hứng rất khác - tự hào từ những thái cực văn hóa Hà Nội.\r\n\r\nỪ đúng rồi, Hà Nội của bạn đấy!\r\n\r\nKhi nóng điên dại, lúc lạnh thì tím tái\r\n\r\nLà mái ngói sánh vai phố thị ồn ã\r\n\r\nLà bê tông chọc trời cạnh mặt hồ thơ, ta rảo bước tìm ai\r\n\r\nHà Nội không vội, và cũng chẳng nửa vời\r\n\r\nĐiên đến nơi, hào hoa đến chốn\r\n\r\n \r\n\r\nHà Nội đâu chỉ đẹp', 27);
+(61, 'Biti\'s Hunter Street x Vietmax 2020 - BST HaNoi Cu', 'bitisturqouise.jpg', 2800000, 1, 'Tiếp nối tinh thần #ProudlyMadeinVietNam, nếu 2019 là hơi thở của một Sài Gòn xô bồ mà phóng khoáng, không hoàn hảo nhưng vẫn đáng tự hào, thì 2020 là một nguồn cảm hứng rất khác - tự hào từ những thái cực văn hóa Hà Nội.\r\n\r\nỪ đúng rồi, Hà Nội của bạn đấy!\r\n\r\nKhi nóng điên dại, lúc lạnh thì tím tái\r\n\r\nLà mái ngói sánh vai phố thị ồn ã\r\n\r\nLà bê tông chọc trời cạnh mặt hồ thơ, ta rảo bước tìm ai\r\n\r\nHà Nội không vội, và cũng chẳng nửa vời\r\n\r\nĐiên đến nơi, hào hoa đến chốn\r\n\r\n \r\n\r\nHà Nội đâu chỉ đẹp', 27);
 
 -- --------------------------------------------------------
 
@@ -151,13 +151,19 @@ CREATE TABLE `hoa_don` (
 INSERT INTO `hoa_don` (`ma_hd`, `ngay_mua`, `ghi_chu`, `tinh_trang`, `ma_kh`) VALUES
 (93, '05-05-2021', '', '1', 'admin'),
 (94, '05-05-2021', '', '1', 'admin'),
-(95, '05-05-2021', '', '1', 'admin'),
+(95, '05-05-2021', '', '2', 'admin'),
 (96, '05-05-2021', '', '1', 'admin'),
 (97, '06-05-2021', '', '1', 'admin'),
 (98, '06-05-2021', '', '1', 'admin'),
 (99, '07-5-2021', '', '1', 'pikachu'),
 (100, '07-05-2021', 'assshiba', '1', 'pikachu'),
-(101, '08-05-2021', '', '1', 'pikachu');
+(101, '08-05-2021', '', '1', 'pikachu'),
+(102, '13-08-2021', '', '0', 'thy'),
+(103, '13-08-2021', '', '2', 'thy'),
+(104, '13-08-2021', '', '2', 'admin'),
+(105, '13-08-2021', '', '0', 'admin'),
+(106, '13-08-2021', '', '0', 'admin'),
+(107, '14-08-2021', '', '0', 'thy');
 
 -- --------------------------------------------------------
 
@@ -195,7 +201,12 @@ INSERT INTO `hoa_don_chi_tiet` (`ma_hd`, `so_luong`, `don_gia`, `ma_hh`) VALUES
 (99, 3, 2100000, 34),
 (100, 4, 1200000, 27),
 (101, 4, 2500000, 52),
-(101, 1, 2300000, 35);
+(101, 1, 2300000, 35),
+(102, 1, 8000000, 57),
+(104, 1, 3250000, 55),
+(105, 1, 1100000, 49),
+(106, 1, 2300000, 35),
+(107, 1, 2000000, 33);
 
 -- --------------------------------------------------------
 
@@ -248,8 +259,38 @@ INSERT INTO `loai_hang` (`ma_loai`, `ten_loai`) VALUES
 (24, 'Adidas'),
 (25, 'Nike'),
 (26, 'MLB'),
-(27, 'Biti\'s');
+(27, 'Bitis');
 
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `payments`
+--
+
+CREATE TABLE `payments` (
+  `id` int(11) NOT NULL,
+  `order_id` varchar(255) NOT NULL,
+  `thanh_vien` varchar(100) NOT NULL COMMENT 'thành viên thanh toán',
+  `money` float NOT NULL COMMENT 'số tiền thanh toán',
+  `note` varchar(255) DEFAULT NULL COMMENT 'ghi chú thanh toán',
+  `vnp_response_code` varchar(255) NOT NULL COMMENT 'mã phản hồi',
+  `code_vnpay` varchar(255) NOT NULL COMMENT 'mã giao dịch vnpay',
+  `code_bank` varchar(255) NOT NULL COMMENT 'mã ngân hàng',
+  `time` datetime NOT NULL COMMENT 'thời gian chuyển khoản'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Đang đổ dữ liệu cho bảng `payments`
+--
+
+INSERT INTO `payments` (`id`, `order_id`, `thanh_vien`, `money`, `note`, `vnp_response_code`, `code_vnpay`, `code_bank`, `time`) VALUES
+(1, '742874161', 'abc', 100000, 'chinh chuyển khoản', '00', '13401455', 'NCB', '2020-10-10 01:00:00'),
+(2, '608324672', 'abc', 1000000, 'test chuyển khoản', '00', '13401811', 'NCB', '2020-10-11 21:00:00'),
+(3, '1134065293', 'CT2', 150000, 'học phí', '00', '13407163', 'NCB', '2020-10-22 23:00:00'),
+(4, '596509313', 'CT2', 5000000, 'học phí', '00', '13407176', 'NCB', '2020-10-23 00:00:00'),
+(5, '70267166', 'CT2', 5000000, 'học phí', '00', '13407178', 'NCB', '2020-10-23 00:00:00'),
+(6, '1672349048', 'CT1', 150000, 'học phí', '00', '13407729', 'NCB', '2020-10-23 21:00:00'),
+(7, '106', '', 2070000, 'Noi dung thanh toan', '00', '13563934', 'NCB', '2021-08-13 21:00:00');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -297,6 +338,12 @@ ALTER TABLE `loai_hang`
   ADD PRIMARY KEY (`ma_loai`);
 
 --
+-- Chỉ mục cho bảng `payments`
+--
+ALTER TABLE `payments`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT cho các bảng đã đổ
 --
 
@@ -310,19 +357,25 @@ ALTER TABLE `binh_luan`
 -- AUTO_INCREMENT cho bảng `hang_hoa`
 --
 ALTER TABLE `hang_hoa`
-  MODIFY `ma_hh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
+  MODIFY `ma_hh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT cho bảng `hoa_don`
 --
 ALTER TABLE `hoa_don`
-  MODIFY `ma_hd` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
+  MODIFY `ma_hd` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
 
 --
 -- AUTO_INCREMENT cho bảng `loai_hang`
 --
 ALTER TABLE `loai_hang`
   MODIFY `ma_loai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+
+--
+-- AUTO_INCREMENT cho bảng `payments`
+--
+ALTER TABLE `payments`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

@@ -127,7 +127,7 @@
 
                     </label>
                     <br>
-                    <a href="https://the-closer.herokuapp.com/trang-chinh/danh-sach-sp.php">
+                    <a href="/trang-chinh/lichsu.php">
                         <button>Quay lại</button>
                     </a>
                 </div> 

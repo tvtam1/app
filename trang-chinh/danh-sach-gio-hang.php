@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
                 <div class="logo">
-                <a href="index.php"><img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=OtiUo2flbdEAX_dyQES&_nc_ht=scontent.fpnh22-2.fna&oh=db19836dfddbf8cf02e942468bcdd64b&oe=60BD403A" alt="anh"></a>
+                <a href="index.php"><img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="anh"></a>
                 </div>
             </div>
             <div class="col-md-4" style="background-color: rgb(54, 54, 54);text-align: center">
@@ -87,6 +87,14 @@
                             <li><a href="gioi-thieu.php">GIỚI THIỆU</a></li>
                             <li><a href="tin-tuc.php">TIN TỨC</a></li>
                             <li><a href="lien-he.php">LIÊN HỆ</a></li>
+                            <?php
+                                if(!isset($_SESSION['user'])){
+                            ?>
+                            <li><a href="/tai-khoan/dang-nhap.php">THEO DÕI</a></li>
+                                <?php }else{ ?>
+                                    <li><a href="lichsu.php">THEO DÕI</a></li>
+                                <?php } ?>
+
                     </ul>
                 </div>
             </div>
@@ -196,7 +204,7 @@
                 <tr>
                     <td>Giao hàng</td>
                     <td style = "text-align:right;">Giao hàng miễn phí <br>
-                    Ứơc tính cho Việt Nam <br>
+                    Ước tính tại nội thành Hồ Chí Minh <br>
                     Đổi địa chỉ</td>
                 </tr>
                 <tr>
@@ -234,7 +242,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="fo">
-                        <img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=OtiUo2flbdEAX_dyQES&_nc_ht=scontent.fpnh22-2.fna&oh=db19836dfddbf8cf02e942468bcdd64b&oe=60BD403A" alt="" style ="width:60px;">
+                        <img src="https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/181150315_102201648705132_5894264111956944146_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QFhQphCXzRAAX-d1fir&_nc_ht=scontent.fsgn13-1.fna&oh=9bdbefb8aa7738430f4cf22e51cefca8&oe=613BD03A" alt="" style ="width:60px;">
                         </div>
                     </div>
                     <div class="col-md-3">
