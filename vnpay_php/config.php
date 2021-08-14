@@ -7,5 +7,5 @@
  */
 $vnp_TmnCode = "0NMB5MRO"; //Mã website tại VNPAY 
 $vnp_HashSecret = "YFTZHKRQNNVFYLYMWFJDQBVZDMOTCQMV"; //Chuỗi bí mật
-$vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
+$vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
 $vnp_Returnurl = "https://the-closer.herokuapp.com/vnpay_php/vnpay_return.php";
