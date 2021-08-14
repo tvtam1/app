@@ -237,8 +237,8 @@ ob_start();
                     <td colspan="2"><i>Quý khách vui lòng kiểm tra lại thông tin giao hàng và thông tin đơn hàng để tiến hành đặt hàng. Quý khách có thể tra cứu tình trạng đơn hàng tại TheCloser.com. Chúc quý khách ngày mới tốt lành !</i></td>
                 </tr>
                 <tr>
-                        <td><button type="submit" name="dathang" class="btn btn-danger"><b>ĐẶT HÀNG</b></button></td>
-                        <td><button type="submit" name="dathangonline" class="btn">ĐẶT HÀNG VÀ THANH TOÁN VNPAY</a></button></td>
+                        <td><button type="submit" name="dathang" class="btn btn-primary"><b>ĐẶT HÀNG</b></button></td>
+                        <td><button type="submit" name="dathangonline" class="btn btn-danger">ĐẶT HÀNG VÀ THANH TOÁN VNPAY</a></button></td>
                 </tr>
                 </tbody>
             </table>        
