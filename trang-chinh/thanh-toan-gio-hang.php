@@ -332,7 +332,7 @@ ob_start();
                     echo"<script>
                     alert($total);
                     </script>";
-                    header("Location: http://localhost/bigshoes/vnpay_php/index.php?order_id=" .$ma_hd. "&total=".$total);
+                    header("Location: vnpay_php/index.php?order_id=" .$ma_hd. "&total=".$total);
                     exit();
                 } 
 
