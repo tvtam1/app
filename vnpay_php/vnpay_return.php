@@ -20,7 +20,7 @@
     </head>
     <body>
         <?php
-        require_once("../../admin/dao/pdo.php");
+        require_once("../admin/dao/pdo.php");
         require_once("./config.php");
         $vnp_SecureHash = $_GET['vnp_SecureHash'];
         $inputData = array();
