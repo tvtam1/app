@@ -212,7 +212,13 @@
                     <td style = "text-align:right;"><b><?= number_format($total)?> VNĐ</b></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><a href="thanh-toan-gio-hang.php"><button class = "btn btn-danger" style = "width:100%;">TIẾN HÀNH THANH TOÁN</button></a></td>
+                <?php
+                                if($total==0){
+                            ?>
+                     <td colspan="2"><a href="danh-sach-gio-hang.php"><button class = "btn btn-danger" style = "width:100%;">TIẾN HÀNH THANH TOÁN</button></a></td>
+                                <?php }else{ ?>
+                                    <td colspan="2"><a href="thanh-toan-gio-hang.php"><button class = "btn btn-danger" style = "width:100%;">TIẾN HÀNH THANH TOÁN</button></a></td>
+                                <?php } ?>
                 </tr>
                 <!-- <tr>
                     <td colspan = "2"><b>Phiếu ưu đãi</b></td>
