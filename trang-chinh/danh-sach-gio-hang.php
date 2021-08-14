@@ -214,7 +214,7 @@
                 <tr>
                     <td colspan="2"><a href="thanh-toan-gio-hang.php"><button class = "btn btn-danger" style = "width:100%;">TIẾN HÀNH THANH TOÁN</button></a></td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td colspan = "2"><b>Phiếu ưu đãi</b></td>
                 </tr>
                 <tr>
@@ -222,7 +222,7 @@
                     <input type="text" class="form-control" placeholder="Mã ưu đãi"><br>
                     <button class = "btn btn-light" style = "width:100%;"><b>ÁP DỤNG</b></button>
                     </td>
-                </tr>
+                </tr> -->
                 </tbody>
             </table>
             </div>

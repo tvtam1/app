@@ -224,7 +224,7 @@ ob_start();
                     <td><b>TỔNG</b></td>
                     <td style = "text-align:right;"><b><?=number_format($total)?> VNĐ</b></td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td colspan = "2"><b>Phiếu ưu đãi</b></td>
                 </tr>
                 <tr>
@@ -232,7 +232,7 @@ ob_start();
                     <input type="text" class="form-control" placeholder="Mã ưu đãi"><br>
                     <button class = "btn btn-light" style = "width:100%;"><b>ÁP DỤNG</b></button>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td colspan="2"><i>Quý khách vui lòng kiểm tra lại thông tin giao hàng và thông tin đơn hàng để tiến hành đặt hàng. Quý khách có thể tra cứu tình trạng đơn hàng tại TheCloser.com. Chúc quý khách ngày mới tốt lành !</i></td>
                 </tr>
